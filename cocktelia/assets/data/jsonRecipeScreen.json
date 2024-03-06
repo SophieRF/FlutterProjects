@@ -1,0 +1,34 @@
+{
+    "recipeScreen":[
+    {
+        "drinkName":"Mojito",
+        "drinkImage":"https://th.bing.com/th/id/OIG2.bbDo_ftQq.ZlV_P7t2pW?pid=ImgGn",
+        "drinkIngredients":"INGREDIENTES\nRon blanco 60ml \nJugo de limón 30ml \nAlmibar simple 30ml \nRamas de menta \nGolpe de soda \nRodaja de limón\nHielo picado \nOpcional: 1 golpe de Bitter Angostura",
+        "howToMake":"PREPARACIÓN\nEn un vaso ancho colocar las ramas de menta y presionar suavemente con un mortero, luego añadir el almíbar, el jugo de limón exprimido y hielo picado hasta el tope del vaso. Integrar suavemente con una cucharilla y completar con un golpe de soda y una rodaja de limón para decorar"
+    },
+    {
+        "drinkName":"Margarita",
+        "drinkImage":"https://th.bing.com/th/id/OIG4.wctjqIUzsHL4JCvth8FZ?pid=ImgGn",
+        "drinkIngredients":"INGREDIENTES\nTequila 75ml \nTriple sec 25ml \nJugo de limón 25ml \nAlmíbar simple 10ml",
+        "howToMake":"PREPARACIÓN\nEn una copa Margarita realizar corona de sal añadiendo jugo de limon en los bordes de la copa y colocarla boca abajo en un plato con sal. A continuación verter los ingredientes en una coctelera con hielo. Batir enérgicamente unos 15 segundos y verter el contenido en la copa con la ayuda de un colador"
+    },
+    {
+        "drinkName":"Mojito sin alcohol",
+        "drinkImage":"https://th.bing.com/th/id/OIG2.bbDo_ftQq.ZlV_P7t2pW?pid=ImgGn",
+        "drinkIngredients":"INGREDIENTES\nJugo de limón 40ml \nAlmibar simple 40ml \nSoda o Refresco de Lima \nRamas de menta \nRodaja de limón\nHielo picado",
+        "howToMake": "PREPARACIÓN\nEn un vaso ancho colocar las ramas de menta y presionar suavemente con un mortero, luego añadir el jugo de limón exprimido, el almibar y hielo picado hasta el tope del vaso. Por último completar el vaso con soda y decorar con rodaja de limón"
+    },
+    {
+        "drinkName":"Piña Colada",
+        "drinkImage":"https://th.bing.com/th/id/OIG2.xSN2DKsRDTZCmquTko9u?pid=ImgGn",
+        "drinkIngredients":"INGREDIENTES\nCrema o leche de coco 30ml \nRon blanco 60ml \nJugo de piña 90ml \nOpcional: Leche condensada 30ml \nRodaja de piña y/o cereza",
+        "howToMake":"PREPARACIÓN\nAñade los ingredientes a una licuadora con hielo y licúa todo hasta conseguir una textura uniforme y cremosa, luego sirvelo en una copa huracán o un vaso ancho y decoralo con una pequeña rodaja de piña y una cereza. Añade un sorbete y disfruta este sabroso y refrescante coctel!"
+    },
+    {
+        "drinkName":"Caipirinha",
+        "drinkImage":"https://th.bing.com/th/id/OIG4.NcPmpjmkZtOtX0FLoClV?pid=ImgGn",
+        "drinkIngredients":"INGREDIENTES\nCachaça 60ml\nLima 1\nAzúcar 2 cucharadas\nHielo picado",
+        "howToMake":"PREPARACIÓN\nCortamos la lima en cuartos y la agregamos a un vaso corto junto con el azucar, machacamos con un mortero para que la lima suelte su jugo. Completamos el vaso con hielo picado y añadimos la cachaça, revolvemos un poco con una cuchara mezcladora y decoramos con una rodaja de lima"
+    }
+    ]
+}

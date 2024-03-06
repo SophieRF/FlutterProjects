@@ -1,0 +1,57 @@
+name: cocktelia
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.0
+  sqflite: ^2.3.2
+  path: any
+  provider: ^6.1.1
+  get_it: ^7.6.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/data/jsonCategoryCards.json
+    - assets/data/jsonRecipeCards.json
+    - assets/data/jsonRecipeScreen.json
+  uses-material-design: true
+
+  fonts:
+  - family: Bahianita-Regular
+    fonts:
+      - asset: assets/fonts/Bahianita-Regular.ttf
+
+  - family: Goldman-Regular
+    fonts:
+      - asset: assets/fonts/Goldman-Regular.ttf
+
+  - family: LobsterTwo-Regular
+    fonts:
+      - asset: assets/fonts/LobsterTwo-Regular.ttf
+
+  - family: Michroma-Regular
+    fonts:
+      - asset: assets/fonts/Michroma-Regular.ttf
+
+  - family: OdibeeSans-Regular
+    fonts:
+      - asset: assets/fonts/OdibeeSans-Regular.ttf
+
+  - family: SairaExtraCondensed-Regular
+    fonts:
+      - asset: assets/fonts/SairaExtraCondensed-Regular.ttf
