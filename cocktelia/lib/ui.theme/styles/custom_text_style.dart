@@ -53,7 +53,7 @@ class AppTextStyle{
     fontFamily: 'Michroma-Regular',
     color: Colors.white,
   );
-  static TextStyle get _styleOdibeeSans => const TextStyle(
+  TextStyle get _styleOdibeeSans => const TextStyle(
     fontFamily: 'OdibeeSans-Regular',
     color: Colors.white,
   );

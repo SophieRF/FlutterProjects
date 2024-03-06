@@ -1,4 +1,5 @@
 import 'package:cocktelia/presentation/screens/home_screen.dart';
+import 'package:cocktelia/ui.theme/color_scheme_app.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatelessWidget{
@@ -25,14 +26,14 @@ class SplashScreen extends StatelessWidget{
             ),
           ),
           //Texto de presentación
-          const Positioned(
+          Positioned(
             top: 50,
             left: 0,
             right: 0,
             child: Text('CocktElia',
               textAlign: TextAlign.center,
               style: TextStyle(
-                color: Color.fromARGB(255, 250, 237, 223),
+                color: whiteBone,
                 fontFamily: "Bahianita-Regular",
                 fontSize: 48,
                 fontStyle: FontStyle.italic,

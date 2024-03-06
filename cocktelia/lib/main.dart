@@ -33,8 +33,6 @@ class MainApp extends StatelessWidget {
             "home":(context)=>const MyHomePage(),
           },
           theme: ThemeData(
-            textTheme: Theme.of(context).textTheme.apply(
-            fontFamily: 'Bahianita-Regular'),
             colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(234, 48, 47, 47)),
             useMaterial3: true,
           ),

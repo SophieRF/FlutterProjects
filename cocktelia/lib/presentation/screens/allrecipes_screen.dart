@@ -4,6 +4,7 @@ import 'package:cocktelia/presentation/widgets/recipeCard/changeNotifier/recipec
 import 'package:cocktelia/presentation/screens/favorites_screen.dart';
 import 'package:cocktelia/presentation/widgets/recipeCard/recipes_grid.dart';
 import 'package:cocktelia/presentation/widgets/tab_bar.dart';
+import 'package:cocktelia/ui.theme/color_scheme_app.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 class AllRecipesScreen extends StatelessWidget{
@@ -25,11 +26,11 @@ class AllRecipesScreen extends StatelessWidget{
           children: [
             //Container de fondo
             Container(
-              decoration: const BoxDecoration(
+              decoration: BoxDecoration(
                 gradient: LinearGradient(
                   colors: [
-                    Color.fromARGB(255, 31, 23, 15),
-                    Color.fromARGB(255, 66, 57, 50),
+                    darkBrown,
+                    lightBrown,
                   ],
                   begin: Alignment.topCenter, 
                   end: Alignment.bottomCenter,

@@ -1,4 +1,5 @@
 import 'package:cocktelia/presentation/screens/recipeScreen/recipe_screen.dart';
+import 'package:cocktelia/ui.theme/color_scheme_app.dart';
 import 'package:cocktelia/ui.theme/styles/text_style_app.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -12,11 +13,11 @@ class FavoritesMenu extends StatelessWidget {
     return Consumer<RecipeScreenProvider>(
       builder: (context, recipeProvider, _) {
         return Container(
-          decoration: const BoxDecoration(
+          decoration: BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                Color.fromARGB(255, 31, 23, 15),
-                Color.fromARGB(255, 66, 57, 50),
+                darkBrown,
+                lightBrown,
               ],
               begin: Alignment.topCenter, 
               end: Alignment.bottomCenter,

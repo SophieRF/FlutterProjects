@@ -3,6 +3,7 @@ import 'package:cocktelia/presentation/widgets/categoryCard/changeNotifier/categ
 import 'package:cocktelia/presentation/screens/favorites_screen.dart';
 import 'package:cocktelia/presentation/widgets/categoryCard/categories_card.dart';
 import 'package:cocktelia/presentation/widgets/tab_bar.dart';
+import 'package:cocktelia/ui.theme/color_scheme_app.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -28,11 +29,11 @@ class MyHomePage extends StatelessWidget{
             :TabBarView(
           children:[
             Container(
-              decoration: const BoxDecoration(
+              decoration: BoxDecoration(
                 gradient: LinearGradient(
                   colors: [
-                    Color.fromARGB(255, 31, 23, 15),
-                    Color.fromARGB(255, 66, 57, 50),
+                    darkBrown,
+                    lightBrown,
                   ],
                   begin: Alignment.topCenter, 
                   end: Alignment.bottomCenter, 

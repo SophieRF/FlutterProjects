@@ -30,7 +30,7 @@ class _CategoryCardState extends State<CategoryCard> {
         })
       },
       //Cuerpo
-      child: Container(
+      child: SizedBox(
         width: double.infinity,
         height: 200,
         child: Stack(
