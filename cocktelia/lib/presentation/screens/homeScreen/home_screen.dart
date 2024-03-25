@@ -1,27 +1,29 @@
-import 'package:cocktelia/models/categorycards_model.dart';
-import 'package:cocktelia/presentation/widgets/categoryCard/changeNotifier/categorycards_provider.dart';
-import 'package:cocktelia/presentation/screens/favorites_screen.dart';
+import 'package:cocktelia/extensions/build_context_extensions.dart';
+import 'package:cocktelia/presentation/widgets/categoryCard/model/categorycards_model.dart';
+import 'package:cocktelia/presentation/screens/favoritesScreen/favorites_screen.dart';
 import 'package:cocktelia/presentation/widgets/categoryCard/categories_card.dart';
-import 'package:cocktelia/presentation/widgets/tab_bar.dart';
+import 'package:cocktelia/presentation/widgets/tabBar/tab_bar.dart';
 import 'package:cocktelia/ui.theme/color_scheme_app.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class MyHomePage extends StatelessWidget{
   const MyHomePage({super.key});
 
+  static Route get route => MaterialPageRoute(builder: (context)=> const MyHomePage());
+
   @override
   Widget build(BuildContext context) {
-  Provider.of<CategoryCardProvider>(context).loadCategoryCards();
-  List<CategoryCardModel> categoryCards =
-    Provider.of<CategoryCardProvider>(context).data;
+    context.categoryCardProvider.loadCategoryCards();
+    List<CategoryCardModel> categoryCards =
+    context.categoryCardProvider.data;
 
     return DefaultTabController(
       length: 2,
       child: Scaffold(
-        appBar: const PreferredSize(
-          preferredSize: Size.fromHeight(110),
-          child: TabAppBar(
+        appBar: PreferredSize(
+          preferredSize: Size.fromHeight(110.sp),
+          child: const TabAppBar(
             tabCategory: 'Categorías',)
         ), 
         body:categoryCards.isEmpty 
@@ -37,12 +39,12 @@ class MyHomePage extends StatelessWidget{
                   ],
                   begin: Alignment.topCenter, 
                   end: Alignment.bottomCenter, 
-                  stops: [0.0, 1.0],
+                  stops: const [0.0, 1.0],
                 ),
               ),
             child: ListView.separated(
               itemCount: categoryCards.length,
-              separatorBuilder: (BuildContext context, int index) => const SizedBox(height: 18),
+              separatorBuilder: (BuildContext context, int index) => SizedBox(height: 18.sp),
               itemBuilder: (context, index) {
                 return CategoryCard(categoryCards: categoryCards[index]);
               },

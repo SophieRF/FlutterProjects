@@ -1,5 +1,6 @@
 import 'dart:convert';
-import 'package:cocktelia/models/recipescreen_model.dart';
+import 'dart:math';
+import 'package:cocktelia/presentation/screens/recipeScreen/model/recipescreen_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -8,6 +9,7 @@ class RecipeScreenProvider extends ChangeNotifier{
   RecipeScreenModel? _selectedRecipe;
   final List<RecipeScreenModel> _favoriteRecipes = [];
   List<RecipeScreenModel> _recipes = [];
+  int _currentPage = 0;
 
   List<RecipeScreenModel> get favoriteRecipes => _favoriteRecipes;
   List<RecipeScreenModel> get recipes => _recipes;
@@ -21,11 +23,23 @@ class RecipeScreenProvider extends ChangeNotifier{
     }
   //Se cargan los datos del Json, se parsea a Map y luego se almacena como lista de objetos en _recipes:
   Future<void> loadRecipesFromJson() async {
-    final String data = await rootBundle.loadString("assets/data/jsonRecipeScreen.json");
+    final String data = await rootBundle.loadString("lib/presentation/screens/recipeScreen/data/jsonRecipeScreen.json");
     final Map<String, dynamic> jsonResult = json.decode(data);
     final List<dynamic> jsonRecipes = jsonResult["recipeScreen"];
     _recipes = jsonRecipes.map((json) => RecipeScreenModel.fromJson(json)).toList();
     notifyListeners();
+  }
+  //Función para actualizar la pantalla según se haga scroll
+  Future<List<RecipeScreenModel>> fetchMoreRecipes(int currentPage) async {
+    _currentPage = currentPage;
+    const pageSize = 4;
+    final startIndex = currentPage * pageSize;
+    final endIndex = min(startIndex + pageSize, _recipes.length);
+    final newRecipes = _recipes.sublist(startIndex, endIndex);
+
+    notifyListeners(); 
+    await Future.delayed(const Duration(seconds: 1));
+    return newRecipes;
   }
   //Agregar receta a favoritos:
   void addIntoFavorites(RecipeScreenModel favRecipe) {

@@ -1,18 +1,18 @@
 {
-    "categories": [
+"categories": [
     {
         "id": 1,
-        "categoryImage":"https://th.bing.com/th/id/OIG3.H4wvvDnbWdjWXAaPnTle?pid=ImgGn",
+        "categoryImage":"https://th.bing.com/th/id/OIG2.9Okc9cxjFit_dQFv5iXC?pid=ImgGn",
         "categoryName":"Clásicos"
     },
     {
         "id": 2,
-        "categoryImage":"https://th.bing.com/th/id/OIG2.xSN2DKsRDTZCmquTko9u?pid=ImgGn",
+        "categoryImage":"https://th.bing.com/th/id/OIG3.QLwc3uURYnBbQHhjPK7l?pid=ImgGn",
         "categoryName":"Populares"
     },
     {
         "id": 3,
-        "categoryImage":"https://th.bing.com/th/id/OIG4.NcPmpjmkZtOtX0FLoClV?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "categoryImage":"https://th.bing.com/th/id/OIG3.eTbkr1jexoByLXRwGFFJ?pid=ImgGn",
         "categoryName":"Creativos"
     },
     {

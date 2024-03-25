@@ -25,32 +25,16 @@ dev_dependencies:
 
 flutter:
   assets:
-    - assets/images/
-    - assets/data/jsonCategoryCards.json
-    - assets/data/jsonRecipeCards.json
-    - assets/data/jsonRecipeScreen.json
+    - lib/presentation/screens/splashScreen/image/OIG3.jpg
+    - lib/presentation/widgets/categoryCard/data/jsonCategoryCards.json
+    - lib/presentation/widgets/recipeCards/data/jsonRecipeCards.json
+    - lib/presentation/screens/recipeScreen/data/jsonRecipeScreen.json
   uses-material-design: true
 
   fonts:
-  - family: Bahianita-Regular
-    fonts:
-      - asset: assets/fonts/Bahianita-Regular.ttf
-
-  - family: Goldman-Regular
-    fonts:
-      - asset: assets/fonts/Goldman-Regular.ttf
-
-  - family: LobsterTwo-Regular
-    fonts:
-      - asset: assets/fonts/LobsterTwo-Regular.ttf
-
   - family: Michroma-Regular
     fonts:
       - asset: assets/fonts/Michroma-Regular.ttf
-
-  - family: OdibeeSans-Regular
-    fonts:
-      - asset: assets/fonts/OdibeeSans-Regular.ttf
 
   - family: SairaExtraCondensed-Regular
     fonts:

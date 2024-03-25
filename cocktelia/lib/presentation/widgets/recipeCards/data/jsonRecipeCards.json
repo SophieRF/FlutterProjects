@@ -1,0 +1,129 @@
+{
+"recipes": [
+    {
+        "id": 1,
+        "name": "Mojito",
+        "image": "https://th.bing.com/th/id/OIG2.bbDo_ftQq.ZlV_P7t2pW?pid=ImgGn",
+        "category": "Clásicos"
+    },
+    {
+        "id": 2,
+        "name": "Margarita",
+        "image": "https://th.bing.com/th/id/OIG3.ej7M9KJm9t6A7TSrlEHD?pid=ImgGn",
+        "category": "Clásicos"
+    },
+    {
+        "id": 3,
+        "name": "Piña Colada",
+        "image": "https://th.bing.com/th/id/OIG2.xSN2DKsRDTZCmquTko9u?pid=ImgGn",
+        "category": "Populares"
+    },
+    {
+        "id": 4,
+        "name": "Mojito sin alcohol",
+        "image": "https://th.bing.com/th/id/OIG2.bbDo_ftQq.ZlV_P7t2pW?pid=ImgGn",
+        "category": "Sin alcohol"
+    },
+    {
+        "id": 5,
+        "name": "Cuba Libre",
+        "image": "https://th.bing.com/th/id/OIG4.cirumgTwzDXCdjvqYx2l?pid=ImgGn",
+        "category": "Clásicos"
+    },
+    {
+        "id": 6,
+        "name": "Negroni",
+        "image": "https://th.bing.com/th/id/OIG3.vSNyGU_vk3mBgymvd9F6?pid=ImgGn",
+        "category": "Clásicos"
+    },
+    {
+        "id": 7,
+        "name": "Caipirinha",
+        "image": "https://th.bing.com/th/id/OIG4.UR0m.XsDvisdu5KB3V80?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "category": "Clásicos"
+    },
+    {
+        "id": 8,
+        "name": "Espresso Martini",
+        "image": "https://th.bing.com/th/id/OIG2.iyTxsMCHPW99vCkqYs.e?pid=ImgGn",
+        "category": "Creativos"
+    },
+    {
+        "id": 9,
+        "name": "Dry Martini",
+        "image": "https://th.bing.com/th/id/OIG4.kqSWKnbF7zSauK7LWQ4G?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "category": "Clásicos"
+    },
+    {
+        "id": 10,
+        "name": "Manhattan",
+        "image": "https://th.bing.com/th/id/OIG2.bgPBm1Guiatt3ihbObki?pid=ImgGn",
+        "category": "Clásicos"
+    },
+    {
+        "id": 11,
+        "name": "Cosmopolitan",
+        "image": "https://th.bing.com/th/id/OIG2.vpynK8wubljPMw6zpdGk?pid=ImgGn",
+        "category": "Populares"
+    },
+    {
+        "id": 12,
+        "name": "Fernet Argentino",
+        "image": "https://th.bing.com/th/id/OIG4.5QJwFS1T.BI_r40t4yfM?pid=ImgGn",
+        "category": "Populares"
+    },
+    {
+        "id": 13,
+        "name": "Tequila Sunrise",
+        "image": "https://th.bing.com/th/id/OIG4.4dmlW9OUWZRDkOStNxTK?pid=ImgGn",
+        "category": "Populares"
+    },
+    {
+        "id": 14,
+        "name": "Daiquiri clásico",
+        "image": "https://th.bing.com/th/id/OIG1.vOP2uxuLmf_6GABjg1uD?pid=ImgGn",
+        "category": "Clásicos"
+    },
+    {
+        "id": 15,
+        "name": "Tom Collins",
+        "image": "https://th.bing.com/th/id/OIG2.L4Zg9yw3Bw1jXuNvYnzw?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "category": "Clásicos"
+    },
+    {
+        "id": 16,
+        "name": "Sex on the beach",
+        "image": "https://th.bing.com/th/id/OIG2.rTxRtwG.GtlMtHAJg1Fp?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "category": "Populares"
+    },
+    {
+        "id": 17,
+        "name": "Long island iced tea",
+        "image": "https://th.bing.com/th/id/OIG4.haptsroybQOzjj1oAxm4?pid=ImgGn",
+        "category": "Clásicos"
+    },
+    {
+        "id": 18,
+        "name": "Jack'n Coke",
+        "image": "https://th.bing.com/th/id/OIG2.zBLYkOgVdG50l5t8U2L0?pid=ImgGn",
+        "category": "Populares"
+    },
+    {
+        "id": 19,
+        "name": "Sazerac",
+        "image": "https://th.bing.com/th/id/OIG2.gJuTF8SvBDQl4cedXaeK?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "category": "Clásicos"
+    },
+    {
+        "id": 20,
+        "name": "Sea Breeze",
+        "image": "https://th.bing.com/th/id/OIG2.kUAllAc3pfM6x6e_OTN5?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "category": "Creativos"
+    },
+    {
+        "id": 21,
+        "name": "Harvey Wallbanger",
+        "image": "https://th.bing.com/th/id/OIG2.qYZ1KriTkxxdLy0Y4Nox?w=1024&h=1024&rs=1&pid=ImgDetMain",
+        "category": "Creativos"
+    }
+]}

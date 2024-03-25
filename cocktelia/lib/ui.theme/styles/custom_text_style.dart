@@ -29,32 +29,18 @@ class AppTextStyle{
         ), 
         paragraph24:_styleSairaExtraCondensed.copyWith(
           fontSize: sizeTextParagraph24, 
-          color: Colors.white),
+          color: Colors.white,
+          shadows: [
+            const Shadow(blurRadius: 2.0, color: Colors.black, offset: Offset(4.0, 4.0),)]),
         paragraph24Dark: _styleSairaExtraCondensed.copyWith(
           fontSize: sizeTextParagraph24, 
           color: Colors.black87,
           fontWeight: FontWeight.bold),
         );
     }
-
-  static TextStyle get _styleBahianita => const TextStyle(
-    fontFamily: 'Bahianita-Regular',
-    color: Colors.white,
-  );
-  static TextStyle get _styleGoldman => const TextStyle(
-    fontFamily: 'Goldman-Regular',
-    color: Colors.white,
-  );
-  static TextStyle get _styleLobsterTwo => const TextStyle(
-    fontFamily: 'LobsterTwo-Regular',
-    color: Colors.white,
-  );
+    
   static TextStyle get _styleMichroma => const TextStyle(
     fontFamily: 'Michroma-Regular',
-    color: Colors.white,
-  );
-  TextStyle get _styleOdibeeSans => const TextStyle(
-    fontFamily: 'OdibeeSans-Regular',
     color: Colors.white,
   );
   static TextStyle get _styleSairaExtraCondensed => const TextStyle(
